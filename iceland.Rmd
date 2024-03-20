@@ -17,15 +17,15 @@ library(leaflet.mapboxgl)
 
 #### March 16, 2024 - March 23, 2024
 
-</center>
-
 ```{r echo = FALSE}
 leaflet() %>% 
   addTiles() %>%
   setView(lng = -19.0208, lat = 64.9631, zoom = 6) %>% 
   addMarkers(
     lng = -22.6755, lat = 63.8683,
-    label = sprintf("<strong>The Bridge Between Continents</strong><br/><img src='C:/Users/brenner/Documents/GitHub/iceland/icon_bridge.jpg'>") %>% 
+    popup = sprintf("<strong>The Bridge Between Continents</strong><br/><img src='https://raw.githubusercontent.com/social-lorax/iceland/main/icon_bridge.jpg' height=100>") %>% 
       lapply(htmltools::HTML)
   )
 ```
+
+</center>

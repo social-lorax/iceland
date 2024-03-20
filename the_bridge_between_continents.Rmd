@@ -1,0 +1,53 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center>
+
+# The Bridge Between Continents
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NaN_Ep9PHfA?autoplay=1&playlist=NaN_Ep9PHfA&loop=1" data-external="1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+### Plate Tectonics
+
+According to [National Geographic](https://education.nationalgeographic.org/resource/plate-tectonics/): 
+
+> Plate tectonics is a scientific theory that explains how major landforms are created as a result of Earth’s subterranean movements. The theory, which solidified in the 1960s, transformed the earth sciences by explaining many phenomena, including mountain building events, volcanoes, and earthquakes.
+>
+> In plate tectonics, Earth’s outermost layer, or lithosphere—made up of the crust and upper mantle—is broken into large rocky plates. These plates lie on top of a partially molten layer of rock called the asthenosphere. Due to the convection of the asthenosphere and lithosphere, the plates move relative to each other at different rates, from two to 15 centimeters (one to six inches) per year. This interaction of tectonic plates is responsible for many different geological formations such as the Himalaya mountain range in Asia, the East African Rift, and the San Andreas Fault in California, United States.
+
+<center>
+
+<img src="https://drive.google.com/uc?export=view&amp;id=1CMb1uTWuUogLA59Y0uqCQhR0xr38kmzY" height="400">
+
+</center>
+
+### Iceland 
+
+The divergent plate boundary line that makes up the Mid-Atlantic Ridge and is the boundary between the North American and Eurasian plates runs directly through Iceland. 
+
+|Mid-Atlantic Ridge|Icelandic Boundary|
+|:---:|:----:|
+|<img src="https://drive.google.com/uc?export=view&amp;id=1Kr9B-xOq8hIU4NOYKGX_BR4vzMSD9z_c" height="400">|<img src="https://drive.google.com/uc?export=view&amp;id=1AStDlT0-8p-KvFhO2pn6B45fudsNQvmx" height="400">|
+
+The Bridge Between Continents spans the actual rift and symbolically joins the two continent(al plate)s.
+
+|North American Plate|Bridge|Eurasian Plate|
+|:---:|:---:|:---:|
+|<img src="https://drive.google.com/uc?export=view&amp;id=1WLJ-fSRcTV9b9RF7R8uMwIoVybkQm3z2">|<img src="https://drive.google.com/uc?export=view&amp;id=10JJyHeiFS54rn6WCFW7N5Dyy4T_3L5Zx">|<img src="https://drive.google.com/uc?export=view&amp;id=1ixi1h9knQLWQ_R74eRhQK5AarnEVTk4V">|
+|<img src="https://drive.google.com/uc?export=view&amp;id=1g8Qijl3eo4LIYAlWv6yhU9N0Ic5PcV19">| |<img src="https://drive.google.com/uc?export=view&amp;id=1duWBLc4s9efxETAvau05s4HhFEhjVqSp">|
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HXgWtKlK0Y8?autoplay=1&playlist=HXgWtKlK0Y8&loop=1" data-external="1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<img src="https://drive.google.com/uc?export=view&amp;id=1qopzeVkIQxdMx0XFkk0xEiRkfdtiMThM">
+
+<img src="https://drive.google.com/uc?export=view&amp;id=1UQqFBXXfSqN1nBu9I9gULabjp3Tr4dZj">
+
