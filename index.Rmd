@@ -18,37 +18,47 @@ library(leaflet.mapboxgl)
 #### March 16, 2024 - March 23, 2024
 
 ```{r echo = FALSE}
+get_label <- function(title, icon){
+  str_glue(
+    "-------------------------------", "<br/>",
+        "<strong>{title}</strong>", "<br/>",
+        "<a href='https://social-lorax.github.io/iceland/{icon}.html'>More</a>", "<br/>",
+        "<br/>", "<img src='https://raw.githubusercontent.com/social-lorax/iceland/main/icon_{icon}.jpg' width=125>", "<br/>",
+        "-------------------------------"
+  )
+}
+
 leaflet() %>% 
   addTiles() %>%
   setView(lng = -19.0208, lat = 64.9631, zoom = 6) %>% 
   #The Bridge Between Continents
   addMarkers(
     lng = -22.6755, lat = 63.8683,
-    popup = sprintf("<strong>The Bridge Between Continents</strong><br/><a href='https://social-lorax.github.io/iceland/the_bridge_between_continents.html'>More</a><br/><img src='https://raw.githubusercontent.com/social-lorax/iceland/main/icon_bridge.jpg' height=100>") %>% 
+    popup = sprintf(get_label("The Bridge Between<br/>Continents", "the_bridge_between_continents")) %>% 
       lapply(htmltools::HTML)
   ) %>%
   #Reykjavik
   addMarkers(
     lng = -21.827774, lat = 64.128288,
-    popup = sprintf("<strong>Reykjav&iacute;k</strong><br/><a href='https://social-lorax.github.io/iceland/reykjavik.html'>More</a><br/><img src='https://raw.githubusercontent.com/social-lorax/iceland/main/icon_reykjavik.jpg' height=100>") %>% 
+    popup = sprintf(get_label("Reykjav&iacute;k", "reykjavik")) %>% 
       lapply(htmltools::HTML)
   ) %>% 
   #Vik
   addMarkers(
     lng = -18.9974, lat = 63.4177,
-    popup = sprintf("<strong>V&iacute;k</strong><br/><a href='https://social-lorax.github.io/iceland/vik.html'>More</a><br/><img src='https://raw.githubusercontent.com/social-lorax/iceland/main/icon_vik.jpg' height=100>") %>% 
+    popup = sprintf(get_label("V&iacute;k", "vik")) %>% 
       lapply(htmltools::HTML)
   ) %>%
   #Waterfalls
   addMarkers(
     lng = -19.625189, lat = 63.5325948,
-    popup = sprintf("<strong>Waterfalls</strong><br/><a href='https://social-lorax.github.io/iceland/waterfalls.html'>More</a><br/><img src='https://raw.githubusercontent.com/social-lorax/iceland/main/icon_waterfalls.jpg' height=100>") %>% 
+    popup = sprintf(get_label("Waterfalls", "waterfalls")) %>% 
       lapply(htmltools::HTML)
   ) %>% 
   #Glacier
   addMarkers(
     lng = -16.2336366, lat = 64.0763418,
-    popup = sprintf("-----------------------------<br/><strong>Glacier</strong><br/><a href='https://social-lorax.github.io/iceland/glacier.html'>More</a><br/><img src='https://raw.githubusercontent.com/social-lorax/iceland/main/icon_glacier.jpg' height=100><br/>-----------------------------") %>% 
+    popup = sprintf(get_label("Glacier", "glacier")) %>% 
       lapply(htmltools::HTML)
   )
 ```

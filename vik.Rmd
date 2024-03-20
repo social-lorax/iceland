@@ -1,0 +1,26 @@
+---
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+    number_sections: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center>
+
+# V&iacute;k
+
+Youtube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NaN_Ep9PHfA?autoplay=1&playlist=NaN_Ep9PHfA&loop=1" data-external="1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Image
+
+<img src="https://drive.google.com/uc?export=view&amp;id=1CMb1uTWuUogLA59Y0uqCQhR0xr38kmzY" height="400">
+
+</center>
