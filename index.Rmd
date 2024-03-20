@@ -23,7 +23,7 @@ leaflet() %>%
   setView(lng = -19.0208, lat = 64.9631, zoom = 6) %>% 
   addMarkers(
     lng = -22.6755, lat = 63.8683,
-    popup = sprintf("<strong>The Bridge Between Continents</strong><br/><img src='https://raw.githubusercontent.com/social-lorax/iceland/main/icon_bridge.jpg' height=100>") %>% 
+    popup = sprintf("<strong>The Bridge Between Continents</strong><br/><a href='https://social-lorax.github.io/iceland/the_bridge_between_continents.html'>More</a><br/><img src='https://raw.githubusercontent.com/social-lorax/iceland/main/icon_bridge.jpg' height=100>") %>% 
       lapply(htmltools::HTML)
   )
 ```
